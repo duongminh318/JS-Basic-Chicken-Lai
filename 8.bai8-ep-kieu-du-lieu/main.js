@@ -2,7 +2,7 @@
 // xuất thông báo cho người dùng nhập vào số a
 let numberA = prompt("Mời cụ nhập vào numberA: ");
 // check thử kiểu loại biến numberA
-console.log(typeof numberA);
+console.log(typeof numberA);    //string
 // thử thực hiện tính toán ( nếu chưa ép kiểu )
 let numberB = 5;
 //kiểm tra kiểu  dl = getType trong C#
