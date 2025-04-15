@@ -15,9 +15,9 @@ console.log("innerHTML: ");
 console.log(elm.innerHTML);
 
 // Chọn đến phần tử có id là "demo2"
-let elm2 = document.getElementById("demo2");
-elm2.innerHTML = "<p><i>Tuhoc.cc</i> </p>";
-elm2.textContent = "<p><i>Tuhoc.cc</i> </p>";
+// let elm2 = document.getElementById("demo2");
+// elm2.innerHTML = "<p><i>Tuhoc.cc</i> </p>";
+// elm2.textContent = "<p><i>Tuhoc.cc</i> </p>";
 
 /*
 "emmet.includeLanguages": {

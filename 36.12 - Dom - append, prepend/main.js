@@ -12,10 +12,10 @@ console.log(newImg);
 console.dir(newImg);
 
 //Bước 2. set attribute
-// newImg.setAttribute("src", "./assets/img/most_slide_1.jpg");
+newImg.setAttribute("src", "./assets/img/most_slide_1.jpg");
 
 //cách 2 :
-newImg.src = "./assets/img/most_slide_1.jpg";
+// newImg.src = "./assets/img/most_slide_1.jpg";
 
 //Bước 3. append: thêm vào 1 phần tử đã có sẵn
 document.body.append(newImg); //thêm vào cuối phần tử cha(trong trường hợp này là body)
@@ -23,9 +23,9 @@ document.body.append(newImg); //thêm vào cuối phần tử cha(trong trườn
 newImg.style.width = "100vw";
 
 // 🤞 Ví dụ 2: Thêm thẻ p
-const newText = document.createElement("p"); //bước 1: tạo element
-newText.textContent = "Xin chào, em đang học JS"; // bước 2: set attribute
-document.body.append(newText);
+// const newText = document.createElement("p"); //bước 1: tạo element
+// newText.textContent = "Xin chào, em đang học JS"; // bước 2: set attribute
+// document.body.append(newText);
 
 //ví dụ 3: thêm vào 1 phần tử khác
 const p = document.querySelector(".hero__desc");
@@ -39,13 +39,13 @@ elm1.textContent = "Đây là đoạn văn mới thêm";
 let elm2 = document.createElement("span");
 elm2.textContent = "Đây là thẻ span";
 
-//Lấy phần tử cha
+// Lấy phần tử cha
 let container = document.querySelector(".hero__heading");
 // Thêm nhiều phần tử mới vào cuối phần tử cha
 container.append(elm1, elm2, "Some more text");
 
 // Prepend
-//Nếu muốn thêm vào đầu phần tử cha thì dùng prepend
+// Nếu muốn thêm vào đầu phần tử cha thì dùng prepend
 container.prepend("Hi ! ");
 
 console.log(container.prepend("Hi ! "));
