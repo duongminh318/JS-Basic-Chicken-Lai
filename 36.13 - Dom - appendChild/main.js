@@ -52,6 +52,7 @@ h3.textContent = "Đây là thẻ H3 mới thêm";
 // Thêm bằng appendChild, thêm từng phần tử
 // parentElm.appendChild(p_elm);
 // parentElm.appendChild(h3);
+//demo push github from alexwin github
 
 //Do appendChild có giá trị trả về nên:
 // Ta có thể Thêm và ngay lập tức thao tác với phần tử
