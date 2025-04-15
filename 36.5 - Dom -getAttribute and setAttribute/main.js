@@ -15,10 +15,12 @@ if (firstLink) {
 firstLink.setAttribute("target", "_blank");
 
 // Sử dụng querySelectorAll để chọn tất cả các thẻ a trong ul
-const links = document.querySelectorAll("ul a");
-console.log(links);
+// const links = document.querySelectorAll("ul a");
+// console.log(links);
 // Lặp qua mỗi thẻ a và sử dụng setAttribute
 // để thêm thuộc tính target="_blank"
-links.forEach((singleLink) => {
-  singleLink.setAttribute("target", "_blank");
-});
+// links.forEach((singleLink) => {
+//   singleLink.setAttribute("target", "_blank");
+// });
+const heading = document.querySelector("h1");
+heading.setAttribute("style", "color: blue");
