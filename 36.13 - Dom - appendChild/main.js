@@ -57,12 +57,13 @@ h3.textContent = "Đây là thẻ H3 mới thêm";
 //Do appendChild có giá trị trả về nên:
 // Ta có thể Thêm và ngay lập tức thao tác với phần tử
 // Tạo phần tử mới
-// let btn = document.createElement("button");
-// btn.textContent = "Click me";
+let btn = document.createElement("button");
+btn.textContent = "Click me";
 // Thêm phần tử mới vào một phần tử cha và nhận giá trị trả về
-// let addedBtn = parentElm.appendChild(btn);
+let addedBtn = parentElm.appendChild(btn);
+console.log(addedBtn);
 
 // Gán sự kiện click cho phần tử vừa được thêm
-// addedBtn.addEventListener("click", function () {
-//   alert("Bạn vừa click vào nút");
-// });
+addedBtn.addEventListener("cli", function () {
+  alert("Bạn vừa click vào nút");
+});
