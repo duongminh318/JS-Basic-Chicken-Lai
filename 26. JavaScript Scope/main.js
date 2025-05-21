@@ -38,13 +38,13 @@ function viDu_2() {
 }
 
 // ngoài hàm
-// console.log(b);
+//  console.log(b);
 
 viDu_2();
 
 // 3. Block Scope: biến được khai báo trong {}
 let n = 3;
-let m = 10;
+// let m = 10;
 if (n === 3) {
   let m = 1;
   console.log(m);
@@ -55,4 +55,4 @@ if (n === 3) {
   }
 }
 
-console.log(m);
+// console.log(m);

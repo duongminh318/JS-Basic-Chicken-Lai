@@ -1,7 +1,8 @@
 //27.1 var và let, hoisting trong js
-console.log("Giá trị của biến c = " + c);
+// console.log("Giá trị của biến c = " + c);
 // khởi tạo c
-var c = 9; //undefined
+//var c = 9; //undefined
+// console.log("Giá trị của biến c = " + c);
 //let c = 9; //Cannot access 'c' before initialization
 // Cách js hiểu
 /*
@@ -17,25 +18,25 @@ var: Có phạm vi là function-scope
 let: Có phạm vi là block-scope
 */
 //var: Có phạm vi là function-scope
-function exampleVar() {
-  if (true) {
-    var y = 20; //khởi tạo y nằm trong phạm vi block scope
-    console.log(`${y} trong block scope`);
-  }
-  console.log(`${y} trong vi function scope`);
-}
-exampleVar();
+// function exampleVar() {
+//   if (true) {
+//     var y = 20; //khởi tạo y nằm trong phạm vi block scope
+//     console.log(`${y} trong block scope`);
+//   }
+//   console.log(`${y} trong vi function scope`);
+// }
+// exampleVar();
 
 // JS hiểu
-function exampleVar() {
-  var y; //hoisting
-  if (true) {
-    y = 20; //khởi tạo y nằm trong phạm vi block scope
-    console.log(`${y} trong block scope`);
-  }
-  console.log(`${y} trong vi function scope`);
-}
-exampleVar();
+// function exampleVar() {
+//   var y; //hoisting
+//   if (true) {
+//     y = 20; //khởi tạo y nằm trong phạm vi block scope
+//     console.log(`${y} trong block scope`);
+//   }
+//   console.log(`${y} trong vi function scope`);
+// }
+// exampleVar();
 
 //3. let,const: Có phạm vi là block-scope
 function exampleLet() {
@@ -43,7 +44,6 @@ function exampleLet() {
     let b = 40;
     console.log(`${b} trong block scope`);
   }
-
   // console.log(`${b} trong phạm vi hàm`);
 }
 // Gọi hàm
@@ -59,4 +59,4 @@ var diemToan = 4;
 var diemToan = 8.5;
 // let
 let diemVan;
-// let diemVan;
+//  let diemVan;

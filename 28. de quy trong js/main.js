@@ -13,14 +13,14 @@ let ketQua = giaiThua(5);
 console.log(ketQua);
 
 // Ví dụ 2: tính Fibonacci
-function f(n) {
-  if (n <= 2) {
-    return 1;
-  } else {
-    return f(n - 1) + f(n - 2);
-  }
-}
+// function f(n) {
+//   if (n <= 2) {
+//     return 1;
+//   } else {
+//     return f(n - 1) + f(n - 2);
+//   }
+// }
 
 // Gọi hàm
-let ketQua2 = f(11);
-console.log(ketQua2);
+// let ketQua2 = f(11);
+// console.log(ketQua2);
